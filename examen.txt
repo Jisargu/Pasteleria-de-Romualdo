@@ -1,0 +1,57 @@
+	Nombre: Jonathan Israel Saavedra Gutiérrez
+	Grupo: Matutino 1
+	Fecha: 11/11/2019
+	
+	GIT
+	
+	¿Cuál es la diferencia entre git y GitHUB?
+Git es un controlador de versiones y github es un repositorio en la nube
+
+	¿En cuantos y cuáles estados puede estar un archivo?
+En cuatro: Working Directory ->(git add)-> Staging Area -> (git commit)-> Repository ->(git push)-> Remote
+
+	¿Para qué sirve el comando "git add ." ?
+Sirve para agregar todos los archivos a la Staging Area.
+
+	¿Cuáles son los 4 datos mas relevantes a la hora de hacer un commit?
+Separate subject from body with a blank line
+Capitalize the subject line
+Use the imperative mood in the subject line
+Use the body to explain what and why vs. how
+
+	¿Cuál es el comando para crear una rama en mi repositorio?
+git checkout -b <new-branch>
+
+
+	JIRA
+	
+	Defina lo que es un issue: Son cosas que representan una tarea, un documento, una característica, un ticket, entre otros.
+
+	En kanban y scrum, cuales son las columnas default de un tablero?
+ToDo, Work In Progress, Done
+
+	¿Cómo se selecciona un Dashboard para mostrarse en la pantalla de bienvenida?
+Dashboard -> Seleccionar favorito o al visualizarlo en los 3 puntos "view as wallboard"	
+
+
+	Jenkins
+	
+	¿Cuál es el atajo (ruta relativa) para el directorio home de un usuario de ubuntu?
+cd
+----Otra forma----
+cd ~
+
+	¿Cómo se instala Jenkins en un sistema linux?
+Actualizar los repositorios:
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+
+Añadir entrada a /etc/apt/sources:
+deb https://pkg.jenkins.io/debian-stable binary/
+
+Actualizar los indexes, instalar JAVA SDK y Jenkins (en ese orden):
+sudo apt-get update
+sudo apt install openjdk-8-jdk
+sudo apt-get install jenkins
+
+	¿Cuál es la relacion entre Hudson y Jenkins? 
+Es Jenkins antes de cambiar de nombre debido a que el uso del nombre "Hudson" no fue cedido por Oracle,? por lo que se cambió el nombre por "Jenkins".
