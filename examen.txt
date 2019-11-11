@@ -54,4 +54,4 @@ sudo apt install openjdk-8-jdk
 sudo apt-get install jenkins
 
 	¿Cuál es la relacion entre Hudson y Jenkins? 
-Es Jenkins antes de cambiar de nombre debido a que el uso del nombre "Hudson" no fue cedido por Oracle,? por lo que se cambió el nombre por "Jenkins".
+Es Jenkins antes de cambiar de nombre debido a que el uso del nombre "Hudson" no fue cedido por Oracle, por lo que se cambió el nombre por "Jenkins".
